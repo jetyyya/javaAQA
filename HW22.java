@@ -32,6 +32,7 @@ public class HW22 {
         System.out.println("Після обміну:");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+        //потребує перевірки
     }
 }
 
