@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
-import java.util.List;
-import java.util.ArrayList;
+
 
 
 public class LinkedListDen<E> implements ListDen<E> {
@@ -134,7 +133,6 @@ public class LinkedListDen<E> implements ListDen<E> {
     @Override
     public void sort(Comparator<? super E> comparator) {
         if (size <= 1) {
-            // Якщо список порожній або містить лише один елемент, то немає потреби в сортуванні
             return;
         }
 
